@@ -200,7 +200,7 @@ p {
 
 /* Home Section */
 #home {
-	background-image: url(Aerial_view_of_Little_Thetford.jpg);
+	background-image: url(home_bg.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
