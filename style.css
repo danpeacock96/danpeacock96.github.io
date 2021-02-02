@@ -200,7 +200,7 @@ p {
 
 /* Home Section */
 #home {
-	background-image: url(home_bg.jpg);
+	background-image: url("images\\home_bg.jpg");
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -263,6 +263,53 @@ p {
 }
 
 /* End Home Section */
+
+/* About Section */
+.about {
+	min-height: auto;
+	padding:5%;
+}
+.panel {
+	background-color: #272627;
+    display: inline-block;
+    width: 31%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.inside {
+    height: 22.6em;
+    padding-bottom: 4em;
+    position: relative;
+}
+
+/* End About Section */
+
+/* Membership Section */
+
+.column {
+	float: left;
+	width: 16%;
+	margin-bottom: 16px;
+	margin-right: 2%;
+	margin-left: 2%;
+  }
+  
+  @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	}
+  }
+  
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container2 {
+	padding: 0 16px;
+  }
+
+  /* End Membership Section */
 
 /* Keyframes */
 @keyframes hamburger_puls {
@@ -346,3 +393,16 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+
+/* Footer Section */
+#footer {
+	background-color: rgba(15, 15, 15, 0.616);
+}
+#footer .footer {
+	min-height: 100px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+/* End Footer Section */
