@@ -368,6 +368,10 @@ li{
 	width: 500px;
 }
 
+.updates a{
+
+	text-decoration:underline;
+}
 
 
 /*End Event Section */
@@ -546,6 +550,11 @@ li{
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
+	}
+
+	#FAQs a{
+
+		text-decoration:underline;
 	}
 	/* End FAQs  */
 }
