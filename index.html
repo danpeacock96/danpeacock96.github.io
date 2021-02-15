@@ -9,8 +9,6 @@
   <link rel="shortcut icon" type="image/jpg" href="images\favicon-32x32.png" />
 </head>
 
-<script src="./app.js"></script>
-
 <body>
   <!-- Header -->
   <section id="header">
@@ -58,10 +56,13 @@
   </html>
     <div class="about">
       <div class="all-about">
+        <script>if ($(window).width() < 400) {
+          $("mobile-text").css( "color", "black" );
+     }</script>
         <div class="about-item">
           <div class="about-info">
             <h1>Aim of Little Thetford Community Land Trust</h1>
-            <p>To deliver an inclusive legacy that sustains community needs and provides
+            <p id="mobile-text">To deliver an inclusive legacy that sustains community needs and provides
               attainable housing for future generations in our beautiful village.</p>
             <p>Our aim is to give people who live and work in the village more say in how we want
               the village to develop in ways that benefit the whole community. Anyone in the
@@ -74,7 +75,7 @@
         </div>
         <div class="about-item">
           <div class="about-info">
-            <p>By establishing a Community Land Trust (CLT), the affordable properties we create
+            <p id="mobile-text">By establishing a Community Land Trust (CLT), the affordable properties we create
               will be community-owned assets, safeguarded by a legal asset lock, protected from
               the Right to Buy and reserved for local people. This will ensure genuinely affordable
               housing is available for local people forever. Any surpluses will be reinvested back
@@ -334,6 +335,8 @@
     </div>
   </section>
   <!-- End Footer Section -->
+
+  <script src="./app.js"></script>
 
 </body>
 </html>

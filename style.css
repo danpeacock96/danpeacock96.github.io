@@ -393,8 +393,8 @@ li{
   }
 
   .card img{
-	  width: 200px;
-	  height: 300px;
+	  width:autp;
+	  height:600px;
   }
   
   .container2 {
@@ -448,6 +448,7 @@ li{
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -574,11 +575,11 @@ li{
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
+	.about-info p {
+		color: #282e30;
 	}
 }
+
 /* End  Media Query For Desktop */
 
 
