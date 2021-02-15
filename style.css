@@ -350,6 +350,28 @@ li{
 }
 /* End about section */
 
+
+/*Event Section */
+.updates{
+	overflow:hidden;/*contain the floats*/
+	padding:5px;
+}
+
+.updates img{
+    width: 7.5%;
+	float:left;
+	margin: 2%;
+}
+
+.updates p{
+	float:left;
+	width: 500px;
+}
+
+
+
+/*End Event Section */
+
 /* Our Trustees Section */
 
 .column {
@@ -377,6 +399,7 @@ li{
   
   .container2 {
 	padding: 0 16px;
+	height:380px;
   }
 
   .container2::after, .row::after {
