@@ -385,13 +385,31 @@ li{
 	padding: 0 8px;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 400px) {
+
+	/* about */
+	#about .about-item {
+		height: 500px;
+		background-color: #282e30;
+	}
+
+	#about .about-info {
+		padding:4%;
+		width:auto;
+	}
+
+	#about .about-img{
+		display: none;
+	}
+	/* End About */
+
+
 	.column {
 	  width: 100%;
 	  display: block;
 	}
   }
-  
+
   .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
@@ -411,8 +429,6 @@ li{
 	clear: both;
 	display: table;
   }
-
-
 
   /* End Our Trustees Section */
 
@@ -467,12 +483,6 @@ li{
 	}
 	/* End Home */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
-	/* End Services Section */
 
 	/* about */
 	#about .about-item {
@@ -493,10 +503,8 @@ li{
 	}
 	#about .all-about .about-img {
 		height: 100%;
+		min-width: 300px;
 	}
-	/* End about */
-
-	/* About */
 	#about .about {
 		flex-direction: row;
 	}
@@ -584,9 +592,7 @@ li{
 	}
 	/* End header */
 
-	.about-info p {
-		color: #282e30;
-	}
+
 }
 
 /* End  Media Query For Desktop */
