@@ -355,6 +355,7 @@ li{
 .updates{
 	overflow:hidden;/*contain the floats*/
 	padding:5px;
+	justify-content: center;
 }
 
 .updates img{
@@ -366,6 +367,10 @@ li{
 .updates p{
 	float:left;
 	width: 500px;
+}
+
+.updates iframe{
+	float:left;
 }
 
 .updates a{
