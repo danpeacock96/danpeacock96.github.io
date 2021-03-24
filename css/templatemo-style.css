@@ -123,8 +123,6 @@ a:focus {
   color: #8f8f8f;
 }
 
-
-
 /* Hero */
 
 hr {
@@ -251,15 +249,13 @@ hr {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .tm-gallery-item {
   margin: 0 15px;
 }
-
-
 
 .slick-dots {
   bottom: -65px;
@@ -279,9 +275,6 @@ hr {
 .slick-dots li button:before {
   font-size: 26px;
 }
-
-
-
 
 
 /* Hover Effect */
@@ -309,9 +302,9 @@ hr {
 }
 
 .grid figure figcaption {
-  padding: 2em;
+  padding: 0.8em;
   color: #fff;
-  font-size: 0.75em;
+  font-size: 0.8em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
